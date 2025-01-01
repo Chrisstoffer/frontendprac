@@ -2,126 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: helvetica;
 }
-
-html,body{
+html, body{
     height: 100%;
     width: 100%;
 }
-#bg{
+
+#anik{
     height: 100%;
-    width: 100%;
-    background-color: white;
-}
-
-
-#nav{
-
-    height: 100px;
-    width: 100%;
-   /* background-color: green;*/
+    width: 100;
+    background-color: rgb(164, 236, 245);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px;
-}
-#nav-part-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-#nav h3{
-    font-size: 15px;
-    border: 2px solid black;
-    padding: 7px 12px;
-    border-radius: 50px;
-}
-#nav h1{
-    font-weight: 500;
-    font-size: 20px;
-    text-transform: uppercase;
+    justify-content: space-evenly;
 }
 
-#nav i{
-    font-size: 15px;
-    border: 2px solid black;
-    padding: 7px 12px;
-    border-radius: 50px;
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
 }
-
-#nav button{
-    font-size: 15px;
-    border: 2px solid black;
-    padding: 7px 12px;
-    border-radius: 50px;
-    font-weight: 600;
-    
-    
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(115, 0, 150);
 }
-#button2{
-    border: none;
-    color: white;
-    background-color: orangered;
-    
-
-}
-
-#mainbgtxt{
-    font-size: 100px;
-
-text-transform: uppercase;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 100%;
-text-align: center;
-}
-
-img{
-
-    height: 400px;
-    width: 250px;
-    object-fit: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 15px;
-    transform: translate(-50%,-50%);
-}
-#img1{
-    transform: translate(-50%,-50%) rotate(-30deg);
-}
-#img2{
-    transform: translate(-50%,-50%) rotate(-20deg);
-}
-#img3{
-    transform: translate(-50%,-50%) rotate(-10deg);
-}
-
-#btmlft{
-    position: absolute;
-    bottom: 5%;
-    left: 3%;
-    font-size: 15px;
-}
-#circle
-{
-    font-size: 100px;
-    
-   
-    position: absolute;
-    bottom: 1%;
-    left: 30%;
-    
-   
-}
-#bottom i{
-    
-    position: absolute;
-    bottom: -5%;
-    left: 50%;
- 
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(150, 0, 0);
 }
