@@ -1,77 +1,127 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:  Helvetica;
+    font-family: helvetica;
 }
+
 html,body{
     height: 100%;
     width: 100%;
 }
-#main{
+#bg{
     height: 100%;
     width: 100%;
+    background-color: white;
 }
+
+
 #nav{
-    position: fixed;
+
+    height: 100px;
     width: 100%;
+   /* background-color: green;*/
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding: 30px 40px;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 #nav h3{
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    font-size: 18px;
-    margin-left: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 7px 12px;
     border-radius: 50px;
-    
 }
-#introtxt{
-    height: 30%;
-    width: 100%;
-    padding: 20px 50px;
-}
-
-#introtxt h1{
-    font-size: 80px;
-    letter-spacing: -2px;
-    line-height: 70px;
-    font-weight: 600;
-   
-    
-}
-#place{
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#place h3,#place h4{
+#nav h1{
+    font-weight: 500;
     font-size: 20px;
-    font-weight: 600px;
-}
-#myimage{
-    height: 80%;
-    width: 100%;
-    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
-background-size: cover;
+    text-transform: uppercase;
 }
 
-#about{
-    height: 45%;
-    width: 100%;
+#nav i{
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 7px 12px;
+    border-radius: 50px;
+}
+
+#nav button{
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-weight: 600;
+    
+    
+}
+#button2{
+    border: none;
+    color: white;
+    background-color: orangered;
+    
+
+}
+
+#mainbgtxt{
+    font-size: 100px;
+
+text-transform: uppercase;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+text-align: center;
+}
+
+img{
+
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btmlft{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 15px;
+}
+#circle
+{
+    font-size: 100px;
+    
    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: absolute;
+    bottom: 1%;
+    left: 30%;
+    
+   
 }
-#about h2{
-    width: 60%;
-    font-size: 50px;
-    line-height: 60px;
-
+#bottom i{
+    
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+ 
 }
