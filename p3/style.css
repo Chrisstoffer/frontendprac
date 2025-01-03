@@ -1,0 +1,135 @@
+@font-face {
+    font-family: myfont;
+    src: url(Gilroy-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color:darkgray; */
+    
+}
+#navigation{
+    height: 100px;
+    width: 100%;
+   
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#nav1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#navgation h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+#navgation h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#navgation h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+#name{
+    margin-top: 50px;
+    padding: 40px 60px;
+}
+#name h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#name h1{
+    margin-top: 30px;
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 130px;
+}
+
+#case{
+    padding: 40px 60px;
+    margin-top: 100px;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#case h4,h5{
+    font-size: 25px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 50px;
+}
+.elum{
+    width: 50%;
+}
+    
+.elum-img{
+    height: 500px;
+    width: 100%;
+    /* background-color: #dca7e0; */
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+   
+}
+#img1{
+    background-image: url(https://i.pinimg.com/736x/63/88/d0/6388d0dea165da578025447c8b1a4390.jpg);
+}
+#img2{
+    background-image: url(https://i.pinimg.com/736x/a9/dd/b3/a9ddb3a909939bc0c6bb47280c73da51.jpg);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+
+}
+.bottom h2{
+    margin-bottom: 10px;
+}
